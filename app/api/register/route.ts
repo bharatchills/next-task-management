@@ -1,6 +1,5 @@
 import { db } from "@/lib/db";
 import { createJWT, hashPassword } from "@/lib/auth";
-import { serialize } from "cookie";
 import { NextResponse } from "next/server";
 
 export async function POST(request: Request) {
