@@ -1,11 +1,6 @@
 import clsx from "clsx";
 
-interface InputProps {
-  className?: string;
-}
-
-
-const Input:React.FC<InputProps> = ({ className, ...props }) => {
+const Input = ({ className, ...props }) => {
   return (
     <input
       className={clsx(
